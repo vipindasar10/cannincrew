@@ -4,216 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <title>canine crew</title>    
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,900;1,100;1,200;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bg-black">
+    <section class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">canine crew</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                  
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#service">Services</a>
-                  </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Blog</a>
-                    </li>
-                </ul>
-
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </div>
+                    <nav class="navbar navbar-expand-lg navbar-dark ">
+                        <a class="navbar-brand" href="#"><img src="logo1.png"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                            <li class="nav-item pl-2 pr-2 pt-2 active">
+                              <a class="nav-link text-uppercase font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item pl-2 pr-2 pt-2">
+                              <a class="nav-link text-uppercase font-weight-bold" href="#about">About</a>
+                            </li>
+                            <li class="nav-item pl-2 pr-2 pt-2">
+                                <a class="nav-link text-uppercase font-weight-bold" href="#service">Services</a>
+                              </li>
+                              <li class="nav-item pl-2 pr-2 pt-2">
+                                <a class="nav-link text-uppercase font-weight-bold" href="#">Blog</a>
+                              </li>
+                              <li class="nav-item pl-2 pr-2 pt-2">
+                                <a class="nav-link text-uppercase font-weight-bold" href="#contact">Contacts</a>
+                              </li>
+                            
+                            
+                          </ul>
+                          
+                        </div>
+                      </nav>
+                
+                </div>
             </div>
-          </nav>
-
-
-          <div class="banner col-lg-6 col-md-6 col-12">
-            <video autoplay muted loop>
-              <source src="video/bg.mp4" type="video/mp4"> 
-            </video>
-            <h>canine crew</h>   
-          </div>
-        
-
-        </header>
-     
-
-        <section id=about class="about  py-5">
-          <div class="row align-items-center container my-5 mx-auto">
-            <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-              <h6 style="font-size:2vw;">dognsn klwsadnjkln jkljn</h6>
-              <h2 style="font-size:6vw;">canine crew</h2>
-              <p style="font-size:1vw";>Compiling the love and knowledge of dogs, a man's best friend,and most loyal anima wsds dfe sdfs asa tgh</p>
-
-              <a  href="#">Learn More</a>
-
-            </div>
-            <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
-              <img class="img-fluid" src="dog4.png" >
-            </div>
-          </div>
-        </section>
-
-<section class="section-padding  py-5">
-
-
-  <div id=service class="container">
-    <div class="row align-items-center container my-5 mx-auto">
-      <div class="col-lg-12">
-        <div class="section-header text-center">
-          <h2>Our Services</h2>
-          <p>dsbfgdsfk njhjkhdfs njkhkjed hhjde</p>
         </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="single-service">
-          <img class="img-fluid w-75" src="pup.png">
-          <div class="content">
-            <h3>Puppies</h3>
-            <p>sdgbghsd dsdhfkhs sdhkhskd khksc </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="single-service">
-          <img class="img-fluid w-75" src="bre.png">
-          <div class="content">
-            <h3>Breeding</h3>
-            <p>sdgbghsd dsdhfkhs sdhkhskd khksc </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="single-service">
-          <img class="img-fluid w-75" src="gro.png">
-          <div class="content">
-            <h3>Grooming</h3>
-            <p>sdgbghsd dsdhfkhs sdhkhskd khksc </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id=contact class="contact" >
-  <div class="content">
-    <h2>Contact</h2>
-    <p>sdsfdsfgvkfdn dfglkvdsfklgvdfs dfgjlvkdfjgvjldfks jlkjlkjlj</p>
-    </div>
-
-  <div class="containers">
-    <div class="contact-Info">
-      <div class="box">
-        <div class="icons"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-        <div class="texts">
-          <h3>Address</h3>
-          <p>sherin <br>wdesgdwsfguhsdf<br>ewrfguedsgf</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icons"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-        <div class="texts">
-          <h3>Email</h3>
-          <p>sherin@gmail.com</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="icons"><i class="fa fa-phone" aria-hidden="true"></i></div>
-        <div class="texts">
-          <h3>Phone</h3>
-          <p>9889056442</p>
-        </div>
-      </div> 
-    </div>
-
-    <div class="contactForm">
-      <form>
-        <h2>Send Message</h2>
-        <div class="inputBox">
-          <input type="text" name=""required="required">
-          <span>Full Name</span>
-        </div>
-        <div class="inputBox">
-          <input type="text" name=""required="required">
-          <span>Email</span>
-        </div>
-        <div class="inputBox">
-          <textarea required="required"></textarea>
-          <span>Type your Message</span>
-        </div>
-        <div class="inputBox">
-          <input type="submit" name=""value="Send">
-        </div>
-
-      </form>
-    </div>
-  </div>
-</section>
-
+    </section>
 
 <section>
-<footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container1 p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-
-      <a href="http://facebook.com/" class="fa fa-facebook"></a>
+          <div class="home-slider">
+            <img src="homebg.jpg" alt="Snow" style="width:100%;">
+            <div class="centered">welcome to kennels kerala</div>
+          </div>
+          
+        </section>
      
 
-      <!-- Twitter -->
-      <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
 
-      <!-- Google -->
-      <a href="https://myaccount.google.com/?pli=1" class="fa fa-google"></a>
+<section id=about class="about-section pt-5 pb-5 text-center text-white ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-uppercase pt-4 pb-4 custom-font-h3" >About us</h3>
+                <p class="pt-4 pb-4 font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisci</p>
+                <a href="#" class="btn btn-success text-uppercase">Read More</a>
+            </div>
+        </div>
+    </div>
+</section> 
+<section id=service class="service-section pt-5 pb-5 text-center text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-uppercase pt-4 pb-4 custom-font-h3" >Our Services</h3>
+            </div>
+            <div class="col-lg-4">
+                 <div class="service-box">
+                     <img src="pup.png" alt="" class="img-fluid">
+                     <h4 class="font-weight-bold pt-4 pb-4">PUPPIES</h4>
+                 </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="service-box">
+                <img src="bre.png" alt="" class="img-fluid">
+                <h4 class="font-weight-bold pt-4 pb-4">BREEDING</h4>
+            </div>
+          </div>
+            <div class="col-lg-4">
+              <div class="service-box">
+                <img src="gro.png" alt="" class="img-fluid">
+                <h4 class="font-weight-bold pt-4 pb-4">GROOMING</h4>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<section id=contact class="contact-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-uppercase pt-4 pb-4 custom-font-h3 text-center text-white pt-5 pb-5" >Contact us</h3>   
+            </div>
+            <div class="col-lg-6">
 
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
 
-      <!-- Linkedin -->
-      <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+              <div class="container register">
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                               
+                                <div class="row register-form">
+                                    <div class="col-md-12">
+                                        <form method="post" autocomplete="off" name="google-sheet">
+                                            <div class="form-group">
+                                                <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <input type="submit" name="submit" class="btnSubmit btn-success" value="Submit" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+              
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwlfKlD8_BDZi1HGICgaXuemdLDsBzv75gPZaM733WclBUWxUj0rLTBPwzzBrmholE/exec'
+                const form = document.forms['google-sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+    
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-      <!-- Youtube -->
-      <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
 
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
+      
+            </div>
+            <div class="col-lg-6">
+         <div class="address-box text-white text-center text-md-left pl-lg-5">
+            <p><strong>Sherin Jose</strong>
+Place,city<br>
+Thirissur,Kerala<br>
+Pin:683585<br>
+india<br>
+Call:<a class="text-white text-decoration=none" href="tel:9744 4445 55">9874 9854 22</a><br>
+mail:<a class="text-white text-decoration=none" href="email:sherinjose@gmail.com">email:sherinjose@gmail.com</a>
+            </p>
+         </div>      
+        </div>
+        </div>
+    </div>
+</section>
 
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-white" href="#">vipindas</a>
-  </div>
-  <!-- Copyright -->
+
+<footer class="bg-dark pt-4 pb-4 text-center">
+<p class="text-white-50">Copyright @2021 </p>
 </footer>
 
-</section>
-       
+  
+   
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    
+
+
+
+
 </body>
 </html>
